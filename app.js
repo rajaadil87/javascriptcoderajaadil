@@ -837,14 +837,83 @@
 // //chapter 17-20 task 4
 
 // var a=+prompt("Please Enter the number you want the Table");
+// var b=+prompt("Please Enter the length of the Table");
 
 
 
-// for( i= 1;  i<=10   ; i++){
+// for( i = 1;  i <= b   ; i++){
 //     document.write( a + "X" + i + "=" +  a*i +"<br>");
 // }
 
+// //chapter 17-20 task 5
+
+// var a = ["apple","banana","mango","orange","strawbery"];
+
+// for(i=0; i < a.length; i++){
+//     document.write( a[i] + "<br>")
+// }
+
+// //chapter 17-20 task 6
+// document.write( "Counting" + "<br>")
+// for (i = 1; i <= 15; i++){
+    
+//     document.write( i + "," )
+// }
+// //Reverse counting
+// document.write("<br>"+ "ReverseCounting" + "<br>")
+// for( i= 10 ; i >= 1; i-- ){
+//     document.write( i + "," )
+// }
+// //Even counting
+// document.write("<br>"+ "Even" + "<br>")
+// for ( i = 0; i <= 20 ; i=i+2){
+//     document.write( i + "," )
+// }
+// //Odd counting
+// document.write("<br>"+ "Odd" + "<br>")
+// for ( i = 1; i <= 19 ; i=i+2){
+//     document.write( i + "," )
+// }
+// //Series
+// document.write("<br>"+ "Series" + "<br>")
+// for ( i = 2; i <= 20 ; i=i+2){
+//     document.write( i + "k" + "," )
+// }
+// //chapter 17-20 task 7
+
+
+// var a=prompt("Welcome to The bakery what you want");
+// var b = ["cake","apple pie","cookie","chips","patties"];
+
+
+// for(i = 0 ; i < b.length ;i++){
+//     if( b[i] === a){
+//     alert( b[i] + " at index" + "" + "in our bakery") 
+
+//     }
+
+// }
+
+ //chapter 17-20 task 8
+
+//  var a=[24,53,78,91,12];
+
+// document.write("Array Items : " + [a]  + " <br>");
 
 
 
+//    document.write("The largest number is  : " + Math.max.apply(null,a) )
 
+
+//chapter 17-20 task 9
+
+// var a=[24,53,78,91,12];
+
+// document.write("Array Items : " + [a]  + " <br>");
+//     document.write("The smallest number is  : " + Math.min.apply(null,a) )
+
+//chapter 17-20 task 10
+// var a= 5;
+// for( i = 1; i <= 20; i++){
+//     document.write( a*i + "," )
+// }
